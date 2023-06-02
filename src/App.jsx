@@ -1,6 +1,6 @@
-import {cart} from './assets/cart.png'
-import {heart} from './assets/Heart.svg'
-import {keyboard} from './assets/keyboard.png'
+import cart from "./assets/cart.png"
+import heart from "./assets/Heart.svg"
+import keyboard from "./assets/keyboard.png"
 function App() {
   return (
     <>
