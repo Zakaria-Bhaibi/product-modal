@@ -8,7 +8,7 @@ function App() {
           {/* Image Div */}
           <div>
             <img
-              src="src\assets\keyboard.png"
+              src="../src/assets/keyboard.png"
               alt=""
               className="mx-auto hover:scale-110 duration-200 w-90"
             />
