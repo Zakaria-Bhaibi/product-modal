@@ -1,3 +1,6 @@
+import {cart} from './assets/cart.png'
+import {heart} from './assets/Heart.svg'
+import {keyboard} from './assets/keyboard.png'
 function App() {
   return (
     <>
@@ -8,7 +11,7 @@ function App() {
           {/* Image Div */}
           <div>
             <img
-              src="../src/assets/keyboard.png"
+              src={keyboard}
               alt=""
               className="mx-auto hover:scale-110 duration-200 w-90"
             />
@@ -49,11 +52,11 @@ function App() {
               {/* Buttom buttons container */}
               <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
                 <button className="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
-                  <img src="src/assets/cart.png" alt="" className="w-8" />
+                  <img src={cart} alt="" className="w-8" />
                   <span>ADD TO CART</span>
                 </button>
                 <button className="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
-                  <img src={"src\assets\Heart.svg"} alt="" className="w-8" />
+                  <img src={heart} alt="" className="w-8" />
                   <span>ADD TO WISHLIST</span>
                 </button>
               </div>
